@@ -1,0 +1,85 @@
+SSG for SpoilerAL ver 6.1
+
+[script]
+[title]大乱闘スマッシュブラザーズDX
+[creator]アトキゲデス
+[maker]任天堂
+[process]Dolphin.exe
+[note]wordwrap
+エミュレータDolphinでスマブラDX初期版を動作させた場合に使用できます。
+[/note]
+
+[involve]SSBM
+
+[group]player_parameter
+  [e_with],float,big_e
+    [e_with],-100.0,100.0,float,big_e
+      [subject]X軸自己速度:f_calc,0xE0
+      [subject]Y軸自己速度:f_calc,0xE4
+      [subject]X軸ふっとばし速度:f_calc,0xEC
+      [subject]Y軸ふっとばし速度:f_calc,0xF0
+      [subject]X軸?速度(ヒットバック):f_calc,0xF8
+      [subject]Y軸?速度(ヒットバック):f_calc,0xFC
+      [subject]X座標:f_calc,0x110
+      [subject]Y座標:f_calc,0x114
+      [subject]X軸?速度(ノックバック):f_calc,0x14C
+      [subject]Y軸?速度(ノックバック):f_calc,0x150
+      [subject]X軸?速度(ぬるり):f_calc,0x158
+      [subject](空中での自己減速度に関係?):f_calc,0x1D8
+    [/e_with]
+    [subject]ダメージ:f_calc,0x1890,0,999
+  [/e_with]
+[/group]
+
+[group]debug_level_list
+  MASTER
+  NO-DEBUG-ROM
+  DEBUG-DEVELOP
+  DEBUG-ROM
+  DEVELOP
+[/group]
+
+[/involve]
+
+[adjustment]search,0,47 41 4C 4A 30 31 00 00,0x05000000,0x13FFFFFF,0x10000
+[subject]メイン:dir
+  [subject]カメラ:dir
+    [e_with],-10000,10000,float,big_e
+      [subject]目標X:f_calc,0x451080
+      [subject]目標Y:f_calc,0x451084
+      [subject]目標Z:f_calc,0x451088
+      [subject]座標X:f_calc,0x45108C
+      [subject]座標Y:f_calc,0x451090
+      [subject]座標Z:f_calc,0x451094
+      [subject]有効視野:f_calc,0x451098
+    [/e_with]
+  [back]
+  [subject]1P攻撃時吹っ飛び倍率:f_calc,0x451114,0,100,float,big_e
+  [subject]1P防御時吹っ飛び倍率:f_calc,0x451118,0,100,float,big_e
+  [subject]デバッグレベル:list,0x4D288B,SSBM->debug_level_list,0,1
+  [subject]1Pコントローラ:dir
+    [subject]スティックX:f_calc,0x469142,0,100,float,big_e
+    [subject]スティックY:f_calc,0x469144,0,100,float,big_e
+    [subject]CスティックX:f_calc,0x469146,0,100,float,big_e
+    [subject]CスティックY:f_calc,0x469148,0,100,float,big_e
+    [subject]L:f_calc,0x46914A,0,100,float,big_e
+    [subject]R:f_calc,0x46914C,0,100,float,big_e
+  [back]
+[back]
+[subject]プレイヤー:dir
+  [subject]1P:dir
+    [replace]_[~[:[_0x451170_]:]~]-0x80000000,SSBM->player_parameter
+  [back]
+  [subject]2P:dir
+    [replace]_[~[:[_0x452000_]:]~]-0x80000000,SSBM->player_parameter
+  [back]
+  [subject]3P:dir
+    [replace]_[~[:[_0x452E90_]:]~]-0x80000000,SSBM->player_parameter
+  [back]
+  [subject]4P:dir
+    [replace]_[~[:[_0x453D20_]:]~]-0x80000000,SSBM->player_parameter
+  [back]
+[back]
+[/adjustment]
+
+[/script]

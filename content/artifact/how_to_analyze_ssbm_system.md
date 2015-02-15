@@ -6,5 +6,5 @@ thumbnail = "/images/ustream.jpg"
 +++
 
 - [放送ページ](http://www.ustream.tv/channel/analyze-ssbm-system)
-- [スライド](/resources/How_to_Analyze_SSBM_System.html)
-- [拙作 SSG ファイル (SpoilerAL 用)](/resources/SSBM.ssg)
+- [スライド](/misc/How_to_Analyze_SSBM_System.html)
+- [拙作 SSG ファイル (SpoilerAL 用)](/misc/SSBM.ssg)

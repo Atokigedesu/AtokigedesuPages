@@ -1,15 +1,21 @@
-.head-logo {
+.head-logo, .head-bar {
   background-image: url("/images/header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  text-align: center;
   text-shadow: 1px -1px 0 rgba(0, 0, 0, 1);
 }
 
 .title-background {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.head-logo {
+  text-align: center;
+}
+
+.head-logo .title-background {
   padding: 3em 0;
 }
 
@@ -30,4 +36,14 @@
 
 .head-logo address a:hover {
   color: #FFF;
+}
+
+.head-bar .title-background {
+  padding: 1px;
+}
+
+.head-bar h1 {
+  color: #EEE;
+  font-size: 2rem;
+  margin: 0.1em 1em;
 }
