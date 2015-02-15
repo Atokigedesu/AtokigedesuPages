@@ -1,0 +1,33 @@
+.head-logo {
+  background-image: url("/images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  text-shadow: 1px -1px 0 rgba(0, 0, 0, 1);
+}
+
+.title-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3em 0;
+}
+
+.head-logo h1 {
+  color: #EEE;
+  font-size: 4rem;
+}
+
+.head-logo aside {
+  color: #CCC;
+  font-size: 1rem;
+}
+
+.head-logo address a {
+  color: #CCC;
+  font-size: 2rem;
+}
+
+.head-logo address a:hover {
+  color: #FFF;
+}

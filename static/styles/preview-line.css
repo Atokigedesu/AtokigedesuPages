@@ -1,0 +1,51 @@
+.preview-line {
+  white-space: nowrap;
+  overflow: scroll;
+  margin: 1em 0;
+  padding: 1em 10%;
+}
+
+.preview-line h2 {
+  color: #422;
+  margin: 0.5em;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .3);
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 1);
+}
+
+.preview-line article {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+  white-space: normal;
+  margin: 0 0.5em;
+}
+
+.preview-line article>a {
+  display: block;
+  width: 16rem;
+  height: 16rem;
+}
+
+.preview-line article h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 0 0.5em;
+  color: #EEE;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, .5);
+  text-shadow: 1px -1px 0 rgba(0, 0, 0, .5);
+}
+
+.preview-line article>a:hover h3 {
+  color: white;
+}
+
+.preview-line article h3 small {
+  color: #CCC;
+  font-size: 0.8rem;
+}
