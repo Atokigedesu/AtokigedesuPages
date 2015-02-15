@@ -53,6 +53,10 @@ pre code {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .notify {
   font-size: xx-large;
   font-weight: bold;
