@@ -52,3 +52,10 @@ pre code {
   margin: 0;
   padding: 0;
 }
+
+.notify {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em;
+}
