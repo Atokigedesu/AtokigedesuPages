@@ -1,6 +1,5 @@
 +++
 date      = "2014-02-21T01:49:08+09:00"
-draft     = true
 title     = "スマブラDX 改造コード"
 thumbnail = "http://zippy.gfycat.com/HomelyContentCicada.gif"
 +++

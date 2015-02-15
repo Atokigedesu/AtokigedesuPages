@@ -1,6 +1,5 @@
 +++
 date      = "2013-09-14T13:37:01+09:00"
-draft     = true
 title     = "スマブラDX 調べプレイ解説放送"
 thumbnail = "/images/ustream.jpg"
 +++

@@ -1,6 +1,5 @@
 +++
 date      = "2015-02-14T22:41:01+09:00"
-draft     = true
 title     = "生放送で使うアプリ"
 thumbnail = "/images/nicolive-vs-twitch.png"
 +++

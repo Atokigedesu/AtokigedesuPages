@@ -1,6 +1,5 @@
 +++
 date      = "2015-02-14T22:41:01+09:00"
-draft     = true
 title     = "判定動画作成スクリプト"
 thumbnail = "/images/hitbox-video-thumb.png"
 +++
