@@ -1,5 +1,5 @@
 +++
-date      = "2015-02-14T22:41:01+09:00"
+date      = "2014-05-25T15:57:37+09:00"
 title     = "生放送で使うアプリ"
 thumbnail = "/images/nicolive-vs-twitch.png"
 +++
