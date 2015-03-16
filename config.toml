@@ -1,9 +1,13 @@
 baseurl = "http://atokigedesu.github.io"
 languageCode = "ja-jp"
 title = "アトー出張所"
+copyright = "© 2015 Ato. All Rights Reserved."
 
-[params]
-  description = "主にスマブラDXに関する成果物をここに置いときます。"
+[Author]
+  name = "Ato"
   twitter = "ato_ssbm"
   github = "Atokigedesu"
   mail = "refuse.reality@gmail.com"
+
+[params]
+  description = "主にスマブラDXに関する成果物をここに置いときます。"
