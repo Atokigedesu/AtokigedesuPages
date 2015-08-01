@@ -8,8 +8,13 @@
   </div>
 </header>
 
-<main class="page">
-  {{ .Content }}
-</main>
+<article class="page">
+  <header>
+    <h2>{{ .Title }}</h2>
+  </header>
+  <main>
+    {{ .Content }}
+  </main>
+</article>
 
 {{ partial "footer.html" . }}
