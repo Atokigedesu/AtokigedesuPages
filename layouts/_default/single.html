@@ -10,7 +10,10 @@
 
 <article class="page">
   <header>
-    <h2>{{ .Title }}</h2>
+    <h1>
+      {{ .Title }}
+      <span class="date">{{ .Date.Format "2006/1/2" }}</span>
+    </h1>
   </header>
   <main>
     {{ .Content }}
