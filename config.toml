@@ -1,13 +1,14 @@
-baseurl = "http://atokigedesu.github.io"
-languageCode = "ja-jp"
-title = "アトー出張所"
-copyright = "© 2015 Ato. All Rights Reserved."
+theme         = "HugoShelf"
+baseurl       = "http://atokigedesu.github.io"
+languageCode  = "ja-jp"
+title         = "アトー出張所"
+copyright     = "© 2015 Ato. All Rights Reserved."
 
 [Author]
-  name = "Ato"
-  twitter = "ato_ssbm"
-  github = "Atokigedesu"
-  mail = "refuse.reality@gmail.com"
+  name        = "Ato"
+  twitter     = "ato_ssbm"
+  github      = "Atokigedesu"
+  mail        = "refuse.reality@gmail.com"
 
 [params]
   description = "主にスマブラDXに関する成果物をここに置いときます。"
